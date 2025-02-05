@@ -1,0 +1,40 @@
+/* 744- 481 */
+
+@media (max-width: 745px) {
+  /* main section */
+
+  .main_section {
+    padding: 64px 24px;
+  }
+  /* contact section */
+  .contact_section {
+    flex-direction: column;
+    row-gap: 48px;
+    padding: 16px;
+  }
+  /* form section and map section */
+  .form_section,
+  .map_section {
+    width: 100%;
+  }
+
+  /* form section */
+  .form_section {
+    row-gap: 24px;
+  }
+  .form_heading {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+
+  /* map section */
+  .map_section {
+    row-gap: 24px;
+  }
+
+  .buttons_section {
+    column-gap: 42px;
+  }
+}

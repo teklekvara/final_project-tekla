@@ -1,0 +1,51 @@
+/* 480px -321px */
+
+@media (max-width: 481px) {
+  /* catalog section */
+  .catalog_section {
+    padding: 32px 20px;
+    row-gap: 40px;
+  }
+
+  /* sorting button text "best seeling" */
+  .sorting_button_txt {
+    display: none;
+  }
+
+  .sorting_button {
+    padding: 4px 6px;
+  }
+
+  .filter_sorting_section {
+    padding: 0;
+  }
+
+  .product_section {
+    padding: 0;
+  }
+
+  /* previous and next page text */
+  .previous_text {
+    display: none;
+  }
+
+  .next_text {
+    display: none;
+  }
+
+  /* previous and next button */
+
+  .previous_btn,
+  .next_btn {
+    padding: 8px 14px;
+  }
+}
+
+/* 320px  */
+
+@media (max-width: 321px) {
+  /* catalog section */
+  .catalog_section {
+    padding-inline: 8px;
+  }
+}

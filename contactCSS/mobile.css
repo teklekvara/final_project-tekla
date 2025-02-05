@@ -1,0 +1,44 @@
+/* 480-321 */
+
+@media (max-width: 481px) {
+  /* main section padding */
+
+  .main_section {
+    padding-inline: 20px;
+  }
+  /* input section */
+
+  .input_section {
+    flex-direction: column;
+    row-gap: 36px;
+  }
+}
+
+/* 320px */
+
+@media (max-width: 321px) {
+  /* main section padding */
+  .main_section {
+    padding: 48px 8px;
+  }
+
+  /* contact section */
+  .contact_section {
+    padding-inline: 8px;
+  }
+  /* form heading */
+  .form_heading {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  /* input section */
+  .input_section {
+    row-gap: 24px;
+  }
+  .form {
+    row-gap: 24px;
+  }
+}

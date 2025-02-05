@@ -1,0 +1,45 @@
+/* 1180-745 */
+
+@media (max-width: 1181px) {
+  /* header */
+  .header {
+    padding-inline: 32px;
+  }
+  /* header navigation */
+  .header_nav {
+    position: fixed;
+    top: 100px;
+    left: -100%;
+    background-color: #c46a2b;
+    width: 200px;
+    height: 144px;
+    padding: 16px;
+    transition: 0.5s linear;
+  }
+
+  .header_nav_ul {
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+  .burger_menu_img {
+    display: block;
+  }
+  .show {
+    left: 0;
+  }
+  /* section 2 */
+
+  .section2 {
+    padding-inline: 32px;
+  }
+  /* card section */
+
+  .card_section {
+    overflow-x: scroll;
+  }
+
+  .card_article {
+    flex: 1 0 272px;
+  }
+}

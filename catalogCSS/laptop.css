@@ -1,0 +1,17 @@
+@media (max-width: 1181px) {
+  /* container */
+
+  .catalog_section {
+    padding-inline: 32px;
+  }
+
+  .product_section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .Item7,
+  .Item8,
+  .Item9 {
+    display: none;
+  }
+}

@@ -1,0 +1,26 @@
+@media (max-width: 745px) {
+  .catalog_section {
+    padding-inline: 24px 16px;
+    padding-block: 48px;
+  }
+
+  /* filter sorting section */
+
+  .filter_sorting_section{
+    padding-right: 8px;
+  }
+
+  /* product section */
+
+  .product_section {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 8px;
+  }
+  .Item5,
+  .Item6,
+  .Item7,
+  .Item8,
+  .Item9 {
+    display: none;
+  }
+}

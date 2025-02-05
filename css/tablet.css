@@ -1,0 +1,20 @@
+/* 744 - 481 */
+
+@media (max-width: 745px) {
+  /* header */
+  .header {
+    padding-inline: 24px;
+  }
+
+  .section1 {
+    padding-top: 32px;
+  }
+
+  /* section 2  */
+
+  .section2 {
+    height: 551px;
+    padding: 48px 24px 60px 24px;
+    row-gap: 52px;
+  }
+}
